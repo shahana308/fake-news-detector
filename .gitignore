@@ -1,0 +1,20 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+backend/venv/
+
+# macOS
+.DS_Store
+
+# Editor-related
+.vscode/
+
+# Logs
+*.log
+
+# Node.js dependencies (frontend)
+node_modules/
