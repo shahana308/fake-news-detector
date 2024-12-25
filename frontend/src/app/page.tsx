@@ -13,9 +13,12 @@ const Page = () => {
     setError("");
     setResult("");
     try {
-      const response = await axios.post("http://127.0.0.1:5000/predict", {
-        text: inputText,
-      });
+      const response = await axios.post(
+        "https://fake-news-detector-ldpo.onrender.com/predict",
+        {
+          text: inputText,
+        }
+      );
       setResult(response.data.prediction);
     } catch (err) {
       console.log(err);
