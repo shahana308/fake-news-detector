@@ -1,4 +1,6 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
+
 import pandas as pd
 import re
 import nltk
@@ -15,6 +17,7 @@ import gensim.corpora as corpora
 from gensim.models.coherencemodel import CoherenceModel
 
 app = Flask(__name__)
+CORS(app)
 
 # Pre-load data and models
 data = pd.read_excel("fake_news_data.xlsx")
