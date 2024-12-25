@@ -18,6 +18,10 @@ from gensim.models.coherencemodel import CoherenceModel
 
 app = Flask(__name__)
 CORS(app)
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
 
 # Pre-load data and models
 data = pd.read_excel("fake_news_data.xlsx")
