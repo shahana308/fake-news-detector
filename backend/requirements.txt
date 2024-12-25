@@ -107,6 +107,7 @@ fastjsonschema @ file:///Users/builder/cbouss/perseverance-python-buildout/croot
 filelock @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/filelock_1701807880662/work
 flake8 @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_165ba74yi9/croot/flake8_1708965268668/work
 Flask @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_0bn8z9nupr/croot/flask_1716545880759/work
+Flask-Cors==5.0.0
 flatbuffers==24.3.25
 fonttools @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_801fru8lup/croot/fonttools_1713551493489/work
 frozendict @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_f2kfyv072k/croot/frozendict_1713194840232/work
