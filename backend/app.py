@@ -26,6 +26,10 @@ try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt')
+try:
+    nltk.data.find('tokenizers/punkt_tab')
+except LookupError:
+    nltk.download('punkt_tab')    
 
 # Pre-load data and models
 data = pd.read_excel("fake_news_data.xlsx")
