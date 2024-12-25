@@ -1,7 +1,7 @@
 # Fake News Detector
 
 ## Overview
-The Fake News Detector is a web-based application that uses machine learning to classify news articles as factual or fake.
+The Fake News Detector is an AI-powered web application designed to classify news articles as factual or fake. It leverages advanced Natural Language Processing (NLP) and machine learning techniques to provide reliable predictions.
 
 ## Features
 - Input news headlines or articles to predict their authenticity.
